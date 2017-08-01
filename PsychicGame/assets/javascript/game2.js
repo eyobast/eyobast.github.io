@@ -3,27 +3,29 @@ var randomly=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q
   var wins=0;
   var losses=0;
   var guessLeft=9;
-
+var computerGuess = randomly[Math.floor(Math.random() * randomly.length)];
   document.onkeyup = function(event)
   {
-    if ((event.keyCode > 65) &&  (event.keyCode<90))
+    if ((event.keyCode > 65) &&  (event.keyCode<=90))
     {
       var userGuess=event.key;
-      var computerGuess = randomly[Math.floor(Math.random() * randomly.length)];
+      
+      console.log(computerGuess)
       console.log(userGuess);
-      console.log(computerGuess);
+    
       if (userGuess==computerGuess){
         wins++;
         guessLeft=9;
+        computerGuess = randomly[Math.floor(Math.random() * randomly.length)];
       }
       else if ((userGuess!=computerGuess) && (guessLeft==1)){
         losses++ ;
         guessLeft = 9;
         //alert("You loses 9 times! try again!");
+        computerGuess = randomly[Math.floor(Math.random() * randomly.length)];
       }
       else if ((userGuess!=computerGuess) && (guessLeft>1)){
          guessLeft-=1;
-         console.log('less')
       }
          
       else if(guessLeft==0){

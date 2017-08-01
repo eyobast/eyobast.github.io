@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+ <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>Crystal Collector</title>
+</head>
+<body background="assets/images/pattern.png">
+		<h1>Crystal Collector</h1>
+			<p><h2>Game rule</h2>
+			- You will be givin a random number at the start of the game. <br>
+			- By clicking on a crystal you will add a specific amount of points to your total score.<br>
+			- You will win the game by matching your total score to random number.<br>
+			- You will lose the game if your total score goes above the random number.<br>
+			- The value of each crystal is hidden from you until you click on it.<br>
+			- Each time when the game starts, the game will change the value of each crystal.<br>
+			</p>
+
+		<div>
+			<div id="rand"></div>
+			<div class="display">
+				<p id="win"></p> 
+				<p id="lose"></p>
+
+			</div>
+		</div>
+		 
+		<div>		
+			<div id="first"><img src="assets/images/Arena.png" width="100" height=100px>
+			</div>	
+			<div id="second"><img src="assets/images/icon.png" idth="100" height=100px>
+			</div>	
+			<div id=third><img src="assets/images/Star.png" idth="100" height=100px>
+			</div>
+			<div id=fourth><img src="assets/images/Sapphire.png" idth="100" height=100px>
+			</div>	
+		</div>
+
+		<div>
+			<div id="h2"><h2>Your total score is:</h2></div>
+			<div id="score"></div>
+		</div>
+</body>
+<footer>
+  <script src="./assets/javascript/game.js"></script>
+</footer>
+</html>

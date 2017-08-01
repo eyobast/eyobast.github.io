@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+body{
+	
+}
+ h1{
+ 	text-align: center;
+ 	background-color: lightblue;
+ 	font-size: 28px;
+ }
+ #rand {
+   width: 80px;
+   height: 80px;
+   background: lightgreen;
+   float: left;
+   margin-bottom: 20px;
+   color: red;
+   font-size: 32px;
+   text-align: center;
+}
+ .display {
+   width: 80px;
+   height: 80px;
+   background: yellow;
+   float: left;
+}
+ #first {
+  clear: both;  
+  float: left;
+}
+ #second {
+  float: left;
+}
+ #third {
+  float: left;
+}
+ #fourth {
+  float:left;
+}
+#score {
+  float: left;
+   width: 100px;
+   height: 100px;
+   background: lightgreen;
+}
+#h2{
+  clear: both;  
+   width: 400px;
+}

@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+body{
+	
+}
+ h1{
+ 	text-align: center;
+ 	background-color: lightblue;
+ 	font-size: 28px;
+ }
+ #rand {
+   width: 100px;
+   height: 100px;
+   background: lightgreen;
+   float: left;
+}
+ #display {
+   width: 100px;
+   height: 80px;
+   background: yellow;
+   float: left;
+}
+ #first {
+  float: left;
+}
+ #second {
+  float: left;
+}
+ #third {
+  float: left;
+}
+ #fourth {
+  float:left;
+}
+#score {
+   width: 100px;
+   height: 100px;
+   background: lightgreen;
+}
