@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+body{
+	 /*background-image:assets/images/pattern.png;*/
+}
+ h1{
+ 	text-align: center;
+ 	font-size: 22px;
+ }
+.question{
+ 	font-size: 14px;
+  /*display: none;*/
+}
+.result{
+  /*display: none;*/
+}
+ 
+        .jumbotron {
+            margin-top: 5%;
+            background-image: url(assets/images/pattern1.jpg);
+            background-size: cover;
+            height: 520px;
+            color: blue;
+            font-family: 'Lucida Console';
+            text-align: center;
+        }
+  
